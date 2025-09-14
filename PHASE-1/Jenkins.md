@@ -80,3 +80,8 @@ Then, you can run the script using:
 ```bash
 ./install_docker.sh
 ```
+Change the permission of docker.sock so other users apart from docker can run docker commands.
+
+```bash
+chmod 666 /var/run/docker.sock
+```
