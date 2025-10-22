@@ -1,6 +1,8 @@
 To install Trivy on Ubuntu, you can follow these steps to add the official Aqua Security repository and install via apt: Install necessary dependencies.
 
-``` sudo apt-get install wget apt-transport-https gnupg lsb-release ```
+``` 
+sudo apt-get install wget apt-transport-https gnupg lsb-release
+```
 
 # Add the Trivy GPG key.
 ```
