@@ -85,3 +85,5 @@ Change the permission of docker.sock so other users apart from docker can run do
 ```bash
 chmod 666 /var/run/docker.sock
 ```
+# To install jenkins as docker container
+``` docker run -d --name jenkins -p 8080:8080 jenkins/jenkins:lts ```
